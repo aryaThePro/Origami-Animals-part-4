@@ -1,0 +1,109 @@
+@font-face {
+	font-family: "Blackadder ITC";
+	src: url("itcblkad.wott");
+}
+/*
+div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+*/
+
+.hyperlinks{
+    background-color: violet;
+    width: 150px;
+    height: 20px;
+    transition: width 2s;
+}
+
+.hyperlinks:hover{
+    width:300px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container {
+    margin: 30px;
+    position: relative;
+    text-align: center;
+    color:#ff0000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+h1{
+    background-color:#00ffff; 
+    color:#a52a2a
+}
+*/
+
+body{
+    background-image: url("Sand background.jpg");
+    background-attachment: fixed;
+}
+
+
+.header{
+    background-color: #7fff00;
+    display:flex;
+}
+
+
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Blackadder ITC";
+    background-color:#CCDFCACA;
+    margin: 10px auto;
+
+}
+
+.content{
+    display:flex;
+    flex-wrap: wrap;
+
+    font-family: "Blackadder ITC";
+
+}
+
+.img{
+    position: relative;
+}
+.img p{
+    opacity:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,50%);
+}
+
+.img:hover p{
+    opacity:1;
+}
+
+a:visited{
+    color:red;
+}
+
+a:link{
+    color:white;
+}
+
+a:active{
+    color:blue
+}
